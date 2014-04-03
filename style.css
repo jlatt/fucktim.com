@@ -1,0 +1,61 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+body, html { width: 100%; height: 100%; }
+
+body {
+    font-family: "Helvetica", sans;
+    color: #666;
+    background-color: #eee;
+}
+
+.fuck-tim-content { display: none; }
+.next-year-content { display: none; }
+
+.fuck-tim .fuck-tim-content { display: block; }
+body.fuck-tim {
+    color: #f00;
+    background: #000 url("https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/183108_10150120575478658_7489394_n.jpg") no-repeat center;
+}
+
+.next-year .next-year-content { display: block; }
+
+.text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bottom {
+    bottom: 0;
+}
